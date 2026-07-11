@@ -23,8 +23,9 @@ aside img{
 main img {
     width: 150px;
     height:auto;
-    box-shadow: 8px #000;
-    border: 1px solid rgba(0,1,0,0.8)
+    box-shadow: 8px;
+    border: 1px solid rgba(0,1,0,0.8);
+    padding: 2px #ddd; 
 
 
 }
@@ -39,7 +40,7 @@ footer{
 }
 header{
     background-color: aqua;
-    margin-top: 1px #ddd;
+    margin-top: 1px;
 }
 
 nav {
