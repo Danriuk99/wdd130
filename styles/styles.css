@@ -1,5 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main{
-    max-width: 840px;
+    max-width: 740px;
 }
 nav a {
     color:white;
@@ -7,18 +13,28 @@ nav a {
     display:block;
 }
 aside{
-    width: 20em;
-    margin: 1em;
-    border: 1px solid rgba(0,0,0,0.2);
+    width: 30em;
+    margin: 2em;
+    border: 2px solid rgba(0,0,0,0.2);
     padding: 1em;
     background-color: #eee;
     color:#333;
     text-align: center;
+    position: relative;
 
 }
 aside img{
     width: 200px;
     height:auto;
+    padding: 10px;
+}
+
+aside h2{
+    position: absolute;
+    top:0px;
+    right:5px;
+    left:10px;
+    
 }
 main img {
     width: 150px;
@@ -26,11 +42,13 @@ main img {
     box-shadow: 8px 5px 10px #333;
     border: 1px solid rgba(0,1,0,0.8);
     padding: 2px; 
-
-
+    float: right;
+    margin: 0 0 15px 15px;
 }
+
 p {
     padding:0;
+    line-height: 1.6;
 }
 
 footer{
@@ -39,12 +57,12 @@ footer{
     text-align: center;
 }
 header{
-    background-color: aqua;
+    background-color: rgb(66, 63, 243);
     margin-top: 1px;
 }
 
 nav {
-    background-color: aquamarine;
+    background-color: rgb(137, 163, 250);
     padding: 10px;
 
 }
@@ -52,3 +70,14 @@ nav {
 h1{
     color: #333;
 }
+
+.box {
+    margin:20px;
+    border: 2px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #9dc8fa;
+    color: #000;
+    clear:both;
+
+}
+
