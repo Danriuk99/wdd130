@@ -22,6 +22,27 @@ header, main, footer {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns:  auto 3fr;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 12px 20pxs;
+    font-size: 24px;
+}
+header img {
+    max-height: 135px;
+    width: auto;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin: 4;
+    padding: ;
+}
+
 h1 {
     font-family: var(--heading-font);
     position: absolute;
@@ -45,9 +66,11 @@ h2 {
     font-size: 1.8rem;  
 }
 
-nav, p, section {
-    margin: 16px;
-    padding: 8px;
+main section {
+    margin-bottom: 24px;
+}
+p {
+    line-height: 1.5;
 }
 
 header nav ul {
@@ -56,8 +79,8 @@ header nav ul {
 }
 
 header nav a {
-    color: rgb(5, 5, 66);
-    text-decoration: underline;
+    color: rgb(216, 216, 219);
+    text-decoration: none;
 }
 
 .socialmedia a {
@@ -98,15 +121,73 @@ header nav a {
     clear: both;
 }
 
+.history {
+    margin: 20px 0;
+}
+.history-container{
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    gap: 16px;
+    align-items: center;
+}
+
+.history-container img{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.adventure-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+.adventure-gallery figure{
+    flex: 1;
+    margin: 0;
+    text-align: center;
+}
+
+.adventure-gallery img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover; 
+    border-radius: 4px;
+}
+.adventure-gallery figcaption {
+    font-size: 1.10rem;
+    font-weight: bold;
+    margin-top: 6px;
+    color: var(--primary-color);
+}
+
 footer {
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    background-color: var(--primary-color);
     border-top: 1px solid #ccc;
     padding-top: 10px;
     margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
 }
 footer nav img{
     width: 30px;
     height: auto;
     margin-right: 10px;
+    
+}
+.socialmedia{
+    display: flex;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
 }
 
 .socialmedia img {
