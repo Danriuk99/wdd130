@@ -27,7 +27,7 @@ header {
     grid-template-columns:  auto 3fr;
     align-items: center;
     background-color: var(--primary-color);
-    padding: 12px 20pxs;
+    padding: 12px 20px;
     font-size: 24px;
 }
 header img {
@@ -39,8 +39,8 @@ header nav{
     display: flex;
     justify-content: center;
     gap: 45px;
-    margin: 4;
-    padding: ;
+    margin: 4px;
+    padding: 4px;
 }
 
 h1 {
