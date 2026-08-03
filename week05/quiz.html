@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Quiz</title>
+    <meta name="description" content="A basic HTML and CSS quiz form for WDD 130 code-along activity.">
+    <meta name="author" content="Your Name">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>HTML & CSS Quiz</h1>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+            <div class="form-item">
+                <label for="q1">1. What does the acronym CSS stand for?</label>
+                <input type="text" id="q1" name="q1" required>
+            </div>
+
+            <div class="form-item">
+                <label for="q2">2. Explain the main difference between HTML and CSS in your own words:</label>
+                <textarea id="q2" name="q2" rows="4" required></textarea>
+            </div>
+
+            <div class="form-item">
+                <label for="q3">3. Which CSS layout method is designed for 1-dimensional layouts (rows OR columns)?</label>
+                <select id="q3" name="q3" required>
+                    <option value="" selected disabled>Choose One ...</option>
+                    <option value="flexbox">Flexbox</option>
+                    <option value="grid">CSS Grid</option>
+                    <option value="float">Float</option>
+                </select>
+            </div>
+
+            <div class="form-item">
+                <label for="q4">4. How many grid lines exist in a CSS Grid container with 3 columns?</label>
+                <input type="number" id="q4" name="q4" min="0" max="10" required>
+            </div>
+
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 | HTML & CSS Quiz Form | WDD 130</p>
+    </footer>
+</body>
+</html>
+
+
+
